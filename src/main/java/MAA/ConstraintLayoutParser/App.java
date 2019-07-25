@@ -31,7 +31,7 @@ public class App {
 	 * @throws IOException
 	 */
 
-	public static void main(String[] args) throws IOException {
+	/*public static void main(String[] args) throws IOException {
 		
 		CommandLine cmd = InitCommandLineParser(args);
 		cmd.getOptionValue("input");
@@ -40,7 +40,7 @@ public class App {
 		ConstraintLayoutParser parser = new ConstraintLayoutParser(cmd.getOptionValue("input"));
 		ConstraintLayout parseLayout = parser.parseLayout(cmd.getOptionValue("output", "output.java"));
 		writeFile(cmd.getOptionValue("output", "output.java"), parseLayout.export());
-	}
+	}*/
 
 	/**
 	 * Main-Methode zum Testen in der IDE
@@ -49,11 +49,11 @@ public class App {
 	 * @throws IOException
 	 */
 
-	/*public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 		ConstraintLayoutParser parser = new ConstraintLayoutParser("example/test_main.xml");
 		ConstraintLayout parseLayout = parser.parseLayout("test_main");
 		writeFile("test.java", parseLayout.export());
-	}*/
+	}
 
 	/**
 	 * <h1>Ausgabe-Methode</h1> Schreib eine Datei auf die Platte
