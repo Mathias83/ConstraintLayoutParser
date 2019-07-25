@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" tools:context=".MainActivity">
+
+	<CTop android:id="@+id/top"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintTop_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="parent"
+		app:layout_constraintTop_toRightOf="parent" />
+
+	<CLeft android:id="@+id/left"
+		app:layout_constraintLeft_toTopOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintLeft_toBottomOf="parent"
+		app:layout_constraintLeft_toRightOf="parent" />
+
+	<CBottom android:id="@+id/bottom"
+		app:layout_constraintBottom_toTopOf="parent"
+		app:layout_constraintBottom_toLeftOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintBottom_toRightOf="parent" />
+
+	<CRight android:id="@+id/right"
+		app:layout_constraintRight_toTopOf="parent"
+		app:layout_constraintRight_toLeftOf="parent"
+		app:layout_constraintRight_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent" />
+
+	<CTopMargin android:id="@+id/top"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintTop_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="parent"
+		app:layout_constraintTop_toRightOf="parent"
+		android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp" android:layout_marginBottom="8dp" />
+
+	<CLeftMargin android:id="@+id/left"
+		app:layout_constraintLeft_toTopOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintLeft_toBottomOf="parent"
+		app:layout_constraintLeft_toRightOf="parent"
+		android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp" android:layout_marginBottom="8dp" />
+
+	<CBottomMargin android:id="@+id/bottom"
+		app:layout_constraintBottom_toTopOf="parent"
+		app:layout_constraintBottom_toLeftOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintBottom_toRightOf="parent"
+		android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp" android:layout_marginBottom="8dp" />
+
+	<CRightMargin android:id="@+id/right"
+		app:layout_constraintRight_toTopOf="parent"
+		app:layout_constraintRight_toLeftOf="parent"
+		app:layout_constraintRight_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+		android:layout_marginEnd="8dp" android:layout_marginBottom="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
